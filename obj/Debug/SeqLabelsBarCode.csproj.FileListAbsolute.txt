@@ -1,0 +1,9 @@
+c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\bin\Debug\SeqLabelsBarCode.exe.config
+c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\bin\Debug\SeqLabelsBarCode.exe
+c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\bin\Debug\SeqLabelsBarCode.pdb
+c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.csprojResolveAssemblyReference.cache
+c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.Form1.resources
+c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.Properties.Resources.resources
+c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.csproj.GenerateResource.Cache
+c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.exe
+c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.pdb
