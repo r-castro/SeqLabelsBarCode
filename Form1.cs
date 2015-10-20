@@ -15,7 +15,7 @@ namespace SeqLabelsBarCode
 
         private char _STX = '\x02';
         private string _AUTO_GAP = "C0000"; //Gap Automático
-        private string _MANUAL_GAP = "KI503"; //Gap Manual
+        //private string _MANUAL_GAP = "KI503"; //Gap Manual
         private string _AUTO_BACKFEED = "f340"; //BackFeed Automático
         private string _PARAMETER_1 = "00220";
         private string _PARAMETER_2 = "KI7";
@@ -76,19 +76,16 @@ namespace SeqLabelsBarCode
                         foreach (string values in listValues)
                         {
                             file.WriteLine(values);
-                            System.Console.WriteLine(values);
                         }
                     }
                 }
 
-                MessageBox.Show("Ok", "Teste", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //MessageBox.Show("Ok", "Teste", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 MessageBox.Show("Os valores não podem ser nulos", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-
     }
 }
