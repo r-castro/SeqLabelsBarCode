@@ -7,3 +7,15 @@ c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabel
 c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.csproj.GenerateResource.Cache
 c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.exe
 c:\users\rodrigo\documents\visual studio 2015\Projects\SeqLabelsBarCode\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.pdb
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\bin\Debug\SeqLabelsBarCode.exe.config
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\bin\Debug\SeqLabelsBarCode.exe.manifest
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\bin\Debug\SeqLabelsBarCode.application
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\bin\Debug\SeqLabelsBarCode.exe
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\bin\Debug\SeqLabelsBarCode.pdb
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.Form1.resources
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.Properties.Resources.resources
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.csproj.GenerateResource.Cache
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.exe.manifest
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.application
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.exe
+C:\Users\rodrigo.castro\Documents\GitHubVisualStudio\SeqLabelsBarCode\obj\Debug\SeqLabelsBarCode.pdb

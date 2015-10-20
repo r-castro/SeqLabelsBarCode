@@ -7,11 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Runtime.InteropServices;
+using Microsoft.Win32.SafeHandles;
 
 namespace SeqLabelsBarCode
 {
     public partial class Form1 : Form
     {
+        [DllImport("kernel32.dll", SetLastError = true)]
+        static extern SafeFileHandle CreateFile(string lpFileName, FileAccess dwDesiredAccess,
+            uint dwShareMode, IntPtr lpSecurityAttributes, FileMode dwCreationDisposition,
+                uint dwFlagsAndAttributes, IntPtr hTemplateFile);
 
         private char _STX = '\x02';
         private string _AUTO_GAP = "C0000"; //Gap Automático
@@ -39,19 +46,28 @@ namespace SeqLabelsBarCode
 
         private void PrinterList()
         {
+            string hostname = System.Net.Dns.GetHostName();
+
+            comboBox1.Items.Add(@"\\" + hostname + @"\Argox");
+
             foreach (string printersList in System.Drawing.Printing.PrinterSettings.InstalledPrinters)
             {
                 comboBox1.Items.Add(printersList);
             }
+            comboBox1.SelectedIndex = 0;           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Int32 initial = Int32.Parse(textBox1.Text);
-            Int32 final = Int32.Parse(textBox2.Text);
+            string file = @"PrintText.txt";
+            string printerValue = comboBox1.Text;
+            
 
             if ((textBox1.Text != "") && (textBox2.Text != ""))
             {
+                Int32 initial = Int32.Parse(textBox1.Text);
+                Int32 final = Int32.Parse(textBox2.Text);
+
                 for (int i = initial; i <= final; i++)
                 {
                     List<string> listValues = new List<string>();
@@ -66,21 +82,28 @@ namespace SeqLabelsBarCode
                     listValues.Add(_PARAMETER_5);
                     listValues.Add(_PARAMETER_6);
                     listValues.Add(_PARAMETER_7);
-                    listValues.Add("1E0002000010020" + i.ToString());
+                    listValues.Add("1E0003000010010A" + i.ToString());
                     listValues.Add("Q1");
                     listValues.Add("E");
 
-                    using (System.IO.StreamWriter file =
-                    new System.IO.StreamWriter(@"C:\Users\Public\WriteLines2.txt", true))
+                    try
                     {
+                        StreamWriter writer = new StreamWriter(file);
                         foreach (string values in listValues)
                         {
-                            file.WriteLine(values);
+                            writer.WriteLine(values);
                         }
+
+                        writer.Flush();
+                        writer.Close();
+
+                        File.Copy(file, printerValue);
+                    }
+                    catch (Exception ex)
+                    {
+                        ex.ToString();
                     }
                 }
-
-                //MessageBox.Show("Ok", "Teste", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {

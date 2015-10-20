@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SeqLabelsBarCode.exe" version="1.0.0.3" publicKeyToken="d04fd4b3e2d3782f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SeqLabelsBarCode" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SeqLabelsBarCode.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SeqLabelsBarCode.exe" size="12784">
+      <assemblyIdentity name="SeqLabelsBarCode" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>a8yuUF3zECIvZMXfrZK0c8rgts/V5beOPWXLMthQ0MQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SeqLabelsBarCode.exe.config" size="182">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PbQiHFOih9uz3RPvvsStiPKcsu3PE8/gyCn2QGUyyf4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MEGALASER\RODRIGO.CASTRO" issuerKeyHash="58b2cc8c6fd5fcca0712b1db414551101a5487c1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pxCsxUsotml+s1/+gyQknxfEUaEfZ4eM5UyjV730j44=</DigestValue></Reference></SignedInfo><SignatureValue>UxE+X5B3/ApasQWjrJCQq/GA1ZIiyMWAJKfyzNtym27GFOQCXkEACp1N+u7O0P8gsA9J7XcSA7g+JHum24KtPEXVBaX5tTUoOOoUSyHE+pPuMLPfC6i5S7c0VeS0WURdDTbHaCkANsiad4NCv13ZttzjXynBbAQnHaqaIYwsReM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lpSEu1Z6Toqev2/bieqefkTaO/ls/+9yXvcY5kj3q/qXF+KGgIKgaxU+uh3O+EELS05III2euF3IicM1v41D0b71HRFtZm1wD1yyjv90MGoRq5j33wwhuzBKqsCihxs2QslFhZ/8pKeYIktuZmWZCFe4ChO5CdSi/fIz+rvg6rs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8e8ff4bd57a34ce58c87671fa151c4179f242483fe5fb37e69b6284bc5ac10a7" Description="" Url=""><as:assemblyIdentity name="SeqLabelsBarCode.exe" version="1.0.0.3" publicKeyToken="d04fd4b3e2d3782f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MEGALASER\RODRIGO.CASTRO</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bGUDCadhV6F963D/NB12BERy/y2t5XQPi2GsQVqUW8E=</DigestValue></Reference></SignedInfo><SignatureValue>bmC7hNZTOj9SJU65nsui6TgPTQPAXL6UHM+5Mmnchdt6g4ew4piKVSuN+QUENI4wFwwblRfZgTt9pxySw3kIkfqOiH7ACxzWHJL0KXW1vDWg/KmbxSSa/w7FkBlewgyUoRnuj/Gny4k8NXZ/NoWl2bAIcfzXA0zNKBvh3nNwO1w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lpSEu1Z6Toqev2/bieqefkTaO/ls/+9yXvcY5kj3q/qXF+KGgIKgaxU+uh3O+EELS05III2euF3IicM1v41D0b71HRFtZm1wD1yyjv90MGoRq5j33wwhuzBKqsCihxs2QslFhZ/8pKeYIktuZmWZCFe4ChO5CdSi/fIz+rvg6rs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQIw0Jo6NY8opOJsAwcBzHCDANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAATQBFAEcAQQBMAEEAUwBFAFIAXABSAE8ARABSAEkARwBPAC4AQwBBAFMAVABSAE8wHhcNMTUxMDIyMTYxMDQzWhcNMTYxMDIxMjIxMDQzWjA7MTkwNwYDVQQDHjAATQBFAEcAQQBMAEEAUwBFAFIAXABSAE8ARABSAEkARwBPAC4AQwBBAFMAVABSAE8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJaUhLtWek6Knr9v24nqnn5E2jv5bP/vcl73GOZI96v6lxfihoCCoGsVProdzvhBC0tOSCCNnrhdyInDNb+NQ9G+9R0RbWZtcA9cso7/dDBqEauY998MIbswSqrAoocbNkLJRYWf/KSnmCJLbmZlmQhXuAoTuQnUov3yM/q74Oq7AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAf7HTroF+g7xwG/yo7yjY2C/GkdRsZCqoMTT/x1VQGFd+N3HUwqHKYzdr+1TccbKf1FGlQYETdW9iq7O4hFKdb2x/LHmu5Z++/hu3VoWI4P5g6ktY0voOrwkpWreWJLv82eEqZswUu4Ff3kAhv0fWPM7H+jC94hEyAkP5Bmx2K24=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
