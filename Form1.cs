@@ -46,9 +46,8 @@ namespace SeqLabelsBarCode
 
         private void PrinterList()
         {
-            string hostname = System.Net.Dns.GetHostName();
-
-            comboBox1.Items.Add(@"\\" + hostname + @"\Argox");
+            string hostName = System.Net.Dns.GetHostName();
+            comboBox1.Items.Add(@"\\" + hostName + @"\Argox");
 
             foreach (string printersList in System.Drawing.Printing.PrinterSettings.InstalledPrinters)
             {
