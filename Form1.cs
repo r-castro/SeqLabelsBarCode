@@ -15,10 +15,6 @@ namespace SeqLabelsBarCode
 {
     public partial class Form1 : Form
     {
-        [DllImport("kernel32.dll", SetLastError = true)]
-        static extern SafeFileHandle CreateFile(string lpFileName, FileAccess dwDesiredAccess,
-            uint dwShareMode, IntPtr lpSecurityAttributes, FileMode dwCreationDisposition,
-                uint dwFlagsAndAttributes, IntPtr hTemplateFile);
 
         private char _STX = '\x02';
         private string _AUTO_GAP = "C0000"; //Gap Automático
